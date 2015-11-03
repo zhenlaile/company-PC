@@ -101,4 +101,18 @@ GIT  网络教程：
 	
 		
 		
-			
+
+
+创建分支:
+
+	 git checkout -b dev  ---创建名为dev的分支并切换过去
+	 
+	 --git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
+	 
+	 git branch dev	      ---创建名为dev的分支
+	 git checkout dev  	  ---切换到div分支
+	 
+	 git branch           ---查看所有的分支  包括主分支
+	 
+	 git merge dev    	  ---合并分支dev到当前分支
+	 
